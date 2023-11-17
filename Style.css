@@ -1,0 +1,124 @@
+body {
+  margin: 0%;
+  background-color: black;
+}
+header  {
+  background-color: #B60000;
+}
+nav ul {
+  margin: 0;
+  text-align: center;
+}
+nav li {
+  display: inline-block;
+  padding-top: .75%;
+  padding-bottom: .75%;
+  padding-left: 1%;
+  padding-right: 4%;
+}
+nav a:hover {
+  color: #000
+}
+nav a:before {
+  content: ' ';
+  display: block;
+  height: 5px;
+  background-color: #000;
+  top 0;
+  width: 0;
+  transition: all ease-in-out 300ms;
+}
+nav a:hover::before {
+  width: 100%;
+}
+a:link {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: none;
+}
+h1 {
+  margin: 0;
+  font-family: times new roman;
+  font-size: 26px;
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: #990000;
+  padding-top: 12px;
+}
+h2 {
+  margin: 0;
+  font-family: times new roman;
+  font-size: 20px;
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: #990000;
+  padding-bottom: 12px;
+}
+p {
+  font-family: Arial;
+  font-size: 25px;
+  line-height: 2.0;
+  color: white;
+  padding-right: 7%;
+  padding-left: 7%;
+  padding-bottom: .5%;
+}
+p1 {
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 1.8;
+  color: whitesmoke;
+}
+p2 {
+  font-family: times new roman;
+  font-size: 14px;
+  color: whitesmoke;
+}
+p3 {
+  font-family: Arial;
+  font-size: 33px;
+  line-height: 1.8;
+  color: whitesmoke;
+}
+p4 {
+  font-family: Arial;
+  font-size: 28px;
+  line-height: 1.8;
+  color: whitesmoke;
+  margin-left: 2%;
+  font-weight: bold;
+}
+p5 {
+  font-family: Arial;
+  font-size: 25px;
+  line-height: 1.8;
+  color: white;
+  margin-left: 5%;
+}
+p6 {
+  font-family: Arial;
+  font-size: 20px;
+  line-height: 2.6;
+  color: white;
+  margin-left: 9%;
+  padding-right: 9%;
+  display: inline-block;
+}
+.bottom {
+  line-height: 2.0;
+  background-color: #920000;
+  padding: 1%;
+  text-align: center;
+  margin-top: 4%;
+}
+.Image {
+  display: block;
+  background-color: black;
+  padding-top: .6%;
+  padding-bottom: .6%;
+}
