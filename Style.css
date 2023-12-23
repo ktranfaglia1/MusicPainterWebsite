@@ -81,13 +81,13 @@ p2 {
 }
 p3 {
   font-family: Arial;
-  font-size: 33px;
+  font-size: 35px;
   line-height: 1.8;
   color: whitesmoke;
 }
 p4 {
   font-family: Arial;
-  font-size: 28px;
+  font-size: 29px;
   line-height: 1.8;
   color: whitesmoke;
   margin-left: 2%;
@@ -95,10 +95,11 @@ p4 {
 }
 p5 {
   font-family: Arial;
-  font-size: 25px;
+  font-size: 26px;
   line-height: 1.8;
   color: white;
   margin-left: 5%;
+  text-decoration: underline;
 }
 p6 {
   font-family: Arial;
