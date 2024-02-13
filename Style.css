@@ -7,6 +7,10 @@ header  {
   font-family: times new roman;
   font-size: 18px;
 }
+Version li {
+  margin-left: 6%;
+  text-indent: -1.5em;
+}
 nav ul {
   margin: 0;
   text-align: center;
@@ -15,8 +19,8 @@ nav li {
   display: inline-block;
   padding-top: .75%;
   padding-bottom: .75%;
-  padding-left: 1%;
-  padding-right: 4%;
+  padding-left: 1.25%;
+  padding-right: 4.25%;
 }
 nav a:hover {
   color: #000
@@ -84,13 +88,13 @@ p2 {
 p3 {
   font-family: Arial;
   font-size: 35px;
-  line-height: 1.8;
+  line-height: 2.5;
   color: whitesmoke;
 }
 p4 {
   font-family: Arial;
   font-size: 29px;
-  line-height: 1.8;
+  line-height: 2.5;
   color: whitesmoke;
   margin-left: 2%;
   font-weight: bold;
