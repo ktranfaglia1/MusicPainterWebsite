@@ -30,7 +30,7 @@ nav a:before {
   display: block;
   height: 5px;
   background-color: #000;
-  top 0;
+  top: 0;
   width: 0;
   transition: all ease-in-out 300ms;
 }
