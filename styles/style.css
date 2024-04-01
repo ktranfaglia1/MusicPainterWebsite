@@ -5,11 +5,7 @@ body {
 header  {
   background-color: #B60000;
   font-family: times new roman;
-  font-size: 18px;
-}
-Version li {
-  margin-left: 6%;
-  text-indent: -1.5em;
+  font-size: 20px;
 }
 nav ul {
   margin: 0;
@@ -50,7 +46,7 @@ a:visited {
 h1 {
   margin: 0;
   font-family: times new roman;
-  font-size: 26px;
+  font-size: 30px;
   text-decoration: none;
   color: whitesmoke;
   background-color: #990000;
@@ -59,7 +55,16 @@ h1 {
 h2 {
   margin: 0;
   font-family: times new roman;
-  font-size: 20px;
+  font-size: 22px;
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: #990000;
+  padding-bottom: 12px;
+}
+h3 {
+  margin: 0;
+  font-family: times new roman;
+  font-size: 26px;
   text-decoration: none;
   color: whitesmoke;
   background-color: #990000;
@@ -67,54 +72,58 @@ h2 {
 }
 p {
   font-family: Arial;
-  font-size: 25px;
+  font-size: 26px;
   line-height: 2.0;
   color: white;
   padding-right: 7%;
   padding-left: 7%;
   padding-bottom: .5%;
 }
-p1 {
+.p1 {
   font-family: Arial;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.8;
   color: whitesmoke;
 }
-p2 {
+.p2 {
   font-family: times new roman;
-  font-size: 14px;
+  font-size: 15px;
   color: whitesmoke;
 }
-p3 {
+.p3 {
   font-family: Arial;
   font-size: 40px;
-  line-height: 2.5;
+  line-height: 2.2;
   color: whitesmoke;
 }
-p4 {
+.p4 {
   font-family: Arial;
-  font-size: 29px;
-  line-height: 2.5;
+  font-size: 30px;
+  line-height: 2.2;
   color: whitesmoke;
   margin-left: 2%;
   font-weight: bold;
 }
-p5 {
+.p5 {
   font-family: Arial;
-  font-size: 26px;
+  font-size: 28px;
   line-height: 1.8;
   color: white;
-  margin-left: 5%;
+  margin-left: 4%;
   text-decoration: underline;
 }
-p6 {
+.p6 {
   font-family: Arial;
-  font-size: 20px;
-  line-height: 2.6;
+  font-size: 22px;
+  line-height: 2.4;
   color: white;
-  margin-left: 9%;
-  padding-right: 9%;
+  margin-left: 7%;
+  padding-right: 7%;
   display: inline-block;
+}
+.version {
+  margin-left: 6%;
+  text-indent: -1.5em;
 }
 .bottom {
   line-height: 2.0;
